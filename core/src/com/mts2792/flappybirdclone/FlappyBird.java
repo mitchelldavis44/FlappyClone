@@ -58,7 +58,7 @@ public class FlappyBird extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		background = new Texture("underwater.png");
+		background = new Texture("bg.png");
 		gameover = new Texture("gameover.png");
 
 //		shapeRenderer = new ShapeRenderer();
